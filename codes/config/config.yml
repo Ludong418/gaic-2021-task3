@@ -1,0 +1,23 @@
+dataset:
+  bq_corpus:
+    train: train.tsv
+    dev: dev.tsv
+    test: test.tsv
+
+  lcqmc:
+    train: train.tsv
+    dev: dev.tsv
+    test: test.tsv
+
+  paws-x-zh:
+    train: train.tsv
+    dev: dev.tsv
+    test: test.tsv
+
+  oppo_breeno_round1_data:
+    train: gaiic_track3_round1_train_20210228.tsv
+    test: gaiic_track3_round1_testA_20210228.tsv
+    train-expand: expand_train_20210228.tsv
+
+pretrained: /home/pretrained-model
+bert_count: counts.json
